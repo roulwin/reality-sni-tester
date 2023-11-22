@@ -9,7 +9,7 @@ This script was developed using [3x-ui](https://github.com/MHSanaei/3x-ui) APIs 
 Clone the repo:
 
 ```bash
-git clone https://github.com/miadabdi/reality-sni-tester.git
+git clone https://github.com/roulwin/reality-sni-tester.git
 ```
 
 Copy configuration file and change it for your likings:
