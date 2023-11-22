@@ -7,8 +7,4 @@
   "type": "both/upload/download",
   "upload_bytes": 50000,
   "download_bytes": 400000,
-  "snis": [
-    "www.speedtest.net",
-    "localhost.skypeassets.com"
-  ]
 }
