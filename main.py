@@ -25,6 +25,9 @@ config_path = f"{SCRIPTDIR}/config.json"
 configs = None
 with open(config_path) as json_file:
     configs = json.load(json_file)
+    
+snis_file_path = "snis.txt"
+snis = read_snis_from_file(snis_file_path)
 
 xui = XUIApi(
     configs["address"],
@@ -40,7 +43,7 @@ xui = XUIApi(
 xui.login()
 xui.createRealityInbound()
 
-for sni in configs["snis"]:
+for sni in snis:
     print("\n\n")
     print(f"================ testing for: {sni} =======================")
     print("Set SNI")
